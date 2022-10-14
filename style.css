@@ -96,7 +96,7 @@ a:hover {
 }
 
 .b-parallax {
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .d-bloc {
@@ -739,13 +739,8 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
-    margin-bottom: 24px;
-}
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+.portfolio-thumb {    
+    margin : 40px auto 10px;
 }
 
 .avatar {
@@ -822,7 +817,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -848,24 +843,9 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
     }
     .page-container,
     #hero-bloc {
@@ -904,9 +884,6 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }
-    .b-parallax {
-        background-attachment: scroll;
     }
     .navbar .nav {
         padding-top: 0;
